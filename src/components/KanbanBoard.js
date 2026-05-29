@@ -1,5 +1,6 @@
 import React from "react";
 import TodoItem from "./TodoItem";
+import { KanbanBoardProps, KanbanColumn } from "../types/index";
 
 const STATUSES = [
   { id: "todo", title: "Yapılacak", color: "#94a3b8" },

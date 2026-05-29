@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import TodoForm from "../components/TodoForm";
 import KanbanBoard from "../components/KanbanBoard";
 import TodoModal from "../components/TodoModal";
+import { Todo, TaskStats, TimeAnalytics } from "../types/index";
 
 export default function Home() {
   const [todos, setTodos] = useState(() => {

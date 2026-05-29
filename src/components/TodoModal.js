@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { TodoModalProps } from "../types/index";
 
 export default function TodoModal({ task, onClose, onUpdate }) {
   const [description, setDescription] = useState(task.description || "");

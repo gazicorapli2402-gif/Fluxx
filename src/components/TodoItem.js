@@ -1,3 +1,5 @@
+import { TodoItemProps } from "../types/index";
+
 export default function TodoItem({ todo, deleteTodo, toggleTimer, isActive, moveTask, openModal }) {
   const formatTime = (seconds) => {
     const hrs = Math.floor(seconds / 3600);

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { TodoFormProps, TodoFormState } from "../types/index";
 
 export default function TodoForm({ addTodo }) {
   const [text, setText] = useState("");
